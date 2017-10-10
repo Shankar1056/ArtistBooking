@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">811971081248-usl1mk5gktnl4v97fodm3kmg9oi5l558.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://artistbooking-c2adc.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">811971081248</string>
+    <string name="google_api_key" translatable="false">AIzaSyDDVJqnpmAtPhBreoUIXRSipqar4Vwk-3g</string>
+    <string name="google_app_id" translatable="false">1:811971081248:android:9db34d6d41515617</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDDVJqnpmAtPhBreoUIXRSipqar4Vwk-3g</string>
+    <string name="google_storage_bucket" translatable="false">artistbooking-c2adc.appspot.com</string>
+</resources>

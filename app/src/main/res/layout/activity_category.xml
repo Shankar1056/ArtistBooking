@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_category"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bigappcompany.com.artistbooking.CategoryActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:id="@+id/img"
+/>
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="10dp"
+            android:background="@color/trcolor1"
+            android:orientation="vertical"
+            android:minHeight="80dp">
+            <bigappcompany.com.artistbooking.widgets.MyCustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="16dp"
+                android:text="@string/dummy"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_large"/>
+            <bigappcompany.com.artistbooking.widgets.MyCustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textSize="@dimen/text_small"
+                android:textColor="@color/white"
+                android:paddingRight="16dp"
+                android:text="Since the 12th century CE"/>
+        </LinearLayout>
+    </FrameLayout>
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false"
+            android:id="@+id/photos_RV"></android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+</ScrollView>

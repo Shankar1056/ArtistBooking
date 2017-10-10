@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/ravi/Desktop/Shankar/shankar_spotsoon_running/ArtistBooking/app/build/intermediates/res/merged/release/drawable-mdpi/done.png",
+        "source": "/home/ravi/Desktop/Shankar/shankar_spotsoon_running/ArtistBooking/app/src/main/res/drawable-mdpi/done.png"
+    },
+    {
+        "merged": "/home/ravi/Desktop/Shankar/shankar_spotsoon_running/ArtistBooking/app/build/intermediates/res/merged/release/drawable-mdpi/search.png",
+        "source": "/home/ravi/Desktop/Shankar/shankar_spotsoon_running/ArtistBooking/app/src/main/res/drawable-mdpi/search.png"
+    },
+    {
+        "merged": "/home/ravi/Desktop/Shankar/shankar_spotsoon_running/ArtistBooking/app/build/intermediates/res/merged/release/drawable-mdpi/notification.png",
+        "source": "/home/ravi/Desktop/Shankar/shankar_spotsoon_running/ArtistBooking/app/src/main/res/drawable-mdpi/notification.png"
+    },
+    {
+        "merged": "/home/ravi/Desktop/Shankar/shankar_spotsoon_running/ArtistBooking/app/build/intermediates/res/merged/release/drawable-mdpi/arrow_right.png",
+        "source": "/home/ravi/Desktop/Shankar/shankar_spotsoon_running/ArtistBooking/app/src/main/res/drawable-mdpi/arrow_right.png"
+    },
+    {
+        "merged": "/home/ravi/Desktop/Shankar/shankar_spotsoon_running/ArtistBooking/app/build/intermediates/res/merged/release/drawable-mdpi/download.png",
+        "source": "/home/ravi/Desktop/Shankar/shankar_spotsoon_running/ArtistBooking/app/src/main/res/drawable-mdpi/download.png"
+    },
+    {
+        "merged": "/home/ravi/Desktop/Shankar/shankar_spotsoon_running/ArtistBooking/app/build/intermediates/res/merged/release/drawable-mdpi/play.png",
+        "source": "/home/ravi/Desktop/Shankar/shankar_spotsoon_running/ArtistBooking/app/src/main/res/drawable-mdpi/play.png"
+    }
+]

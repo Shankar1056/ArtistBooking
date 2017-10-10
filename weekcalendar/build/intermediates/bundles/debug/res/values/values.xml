@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <declare-styleable name="WeekCalendar"><attr format="integer" name="numOfPages"/><attr format="dimension" name="daysTextSize"/><attr format="color" name="daysTextColor"/><attr format="color" name="daysBackgroundColor"/><attr format="dimension" name="weekTextSize"/><attr format="color" name="weekTextColor"/><attr format="color" name="weekBackgroundColor"/><attr format="color" name="selectedBgColor"/><attr format="color" name="todaysDateBgColor"/><attr name="dayNameLength">
+            <enum name="singleLetter" value="0"/>
+            <enum name="threeLetters" value="1"/>
+        </attr><attr format="boolean" name="hideNames"/><attr format="color" name="todaysDateTextColor"/></declare-styleable>
+    <dimen name="day_text_wh">30dp</dimen>
+    <string name="app_name">WeekCalendar</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>

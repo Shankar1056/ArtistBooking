@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="1dp"
+
+    app:cardElevation="2dp"
+    app:cardUseCompatPadding="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:id="@+id/rp_row"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+
+    >
+
+            <ImageView
+
+                android:id="@+id/audioimg"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="fitCenter"
+                android:background="@drawable/gradient"
+                />
+        <bigappcompany.com.artistbooking.widgets.MyCustomBoldTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_name"
+
+            android:paddingLeft="10dp"
+            android:layout_toRightOf="@+id/audioimg"
+            android:textSize="@dimen/text_large"
+            android:textColor="@color/textPrimary" />
+    <bigappcompany.com.artistbooking.widgets.MyCustomMedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_catg"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:layout_toRightOf="@+id/audioimg"
+            android:layout_below="@+id/tv_name"
+            android:textSize="@dimen/text_normal"
+            android:textColor="@color/textSecondary" />
+    <bigappcompany.com.artistbooking.widgets.MyCustomMedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_notify"
+            android:paddingLeft="10dp"
+
+            android:layout_toRightOf="@+id/audioimg"
+            android:layout_below="@+id/tv_catg"
+            android:textSize="@dimen/text_normal"
+            android:textColor="@color/textPrimary" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

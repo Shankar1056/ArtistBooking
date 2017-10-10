@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="bigappcompany.com.artistbooking.BookingActivityNew">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bt_book">
+        <RelativeLayout
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <bigappcompany.com.artistbooking.HorizontalCalendar.HorizontalCalendarView
+                android:id="@+id/calendarView"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                app:selectorColor="@color/color2"
+                app:selectedDateBackground="@color/color2"
+                app:textColorSelected="@color/colorPrimary"
+                app:layout_scrollInterpolator="@android:interpolator/accelerate_decelerate"
+                app:textColorNormal="#ffffff"/>
+    <android.support.v7.widget.RecyclerView
+        android:elevation="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:id="@+id/months_rv"
+        android:clickable="true"
+        android:visibility="gone"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@color/colorPrimary"
+
+        ></android.support.v7.widget.RecyclerView>
+
+    <noman.weekcalendar.WeekCalendar
+
+        android:layout_below="@+id/months_rv"
+        android:id="@+id/weekV"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary"
+        app:dayNameLength="singleLetter"
+        android:visibility="gone"
+        app:numOfPages="150"></noman.weekcalendar.WeekCalendar>
+
+
+
+
+            <ImageView
+
+                android:id="@+id/time_sprtr"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:gravity="right"
+                android:layout_height="100dp"
+                android:src="@drawable/seperator"
+                android:layout_toLeftOf="@+id/txt_diff"
+                android:layout_toRightOf="@+id/tv_date"
+                android:scaleType="centerInside"
+                android:layout_below="@+id/card_start"></ImageView>
+            <bigappcompany.com.artistbooking.widgets.MyCustomMedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_date"
+                android:layout_alignTop="@+id/time_sprtr"
+                android:layout_alignBottom="@+id/time_sprtr"
+                android:text="NOV 21"
+                android:paddingLeft="32dp"
+                android:paddingRight="16dp"
+                android:gravity="center"
+                android:textColor="@color/textPrimary"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/card_start"
+                android:textSize="@dimen/text_normal" />
+            <bigappcompany.com.artistbooking.widgets.MyCustomMedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_diff"
+                android:layout_alignTop="@+id/time_sprtr"
+                android:layout_alignBottom="@+id/time_sprtr"
+                android:text="0 h 00 m"
+                android:gravity="center"
+                android:paddingLeft="16dp"
+                android:paddingRight="32dp"
+                android:textColor="@color/textPrimary"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/card_start"
+                android:textSize="@dimen/text_normal" />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="2dp"
+                app:cardUseCompatPadding="true"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="2dp"
+                android:layout_below="@+id/calendarView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:id="@+id/card_start"
+                >
+                <bigappcompany.com.artistbooking.widgets.MyCustomMedTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_startTime"
+
+                    android:text="00 : 00"
+                    android:padding="5dp"
+                    android:textColor="@color/textPrimary"
+
+                    android:textSize="38sp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="2dp"
+                app:cardUseCompatPadding="true"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="2dp"
+                android:layout_below="@+id/time_sprtr"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/card_end"
+                >
+                <bigappcompany.com.artistbooking.widgets.MyCustomMedTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_endTime"
+
+                    android:text="00 : 00"
+                    android:padding="5dp"
+                    android:textColor="@color/textPrimary"
+
+                    android:textSize="38sp" />
+            </android.support.v7.widget.CardView>
+
+
+            <bigappcompany.com.artistbooking.widgets.MyCustomMedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_startAmPm"
+                android:layout_marginTop="20dp"
+                android:text="AM"
+                android:layout_toRightOf="@+id/card_start"
+                android:layout_alignBottom="@id/card_start"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/textPrimary"/>
+            <bigappcompany.com.artistbooking.widgets.MyCustomMedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_endAmPm"
+                android:gravity="left"
+                android:layout_toRightOf="@+id/card_end"
+                android:text="AM"
+                android:layout_alignBottom="@id/card_end"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/textPrimary" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/txt_endAmPm"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:id="@+id/txt_dev"
+                />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/txt_dev"
+                android:id="@+id/til_abt_evnt"
+                >
+                <bigappcompany.com.artistbooking.widgets.MyCustomEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textSecondary"
+                    android:hint="About Event"
+                    android:inputType="text"
+                    android:id="@+id/et_about"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/til_abt_evnt"
+                android:id="@+id/til_venue"
+                >
+                <bigappcompany.com.artistbooking.widgets.MyCustomEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textSecondary"
+                    android:hint="Venue"
+                    android:inputType="text"
+                    android:id="@+id/et_venue"
+                    />
+            </android.support.design.widget.TextInputLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <bigappcompany.com.artistbooking.widgets.MyCustomButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:text="Book"
+        android:id="@+id/bt_book"
+        android:textSize="@dimen/text_large"
+        android:textColor="@color/textPrimary"
+        android:background="@drawable/bt_bg"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

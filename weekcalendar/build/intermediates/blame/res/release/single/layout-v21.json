@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/ravi/Desktop/Shankar/shankar_spotsoon_running/ArtistBooking/weekcalendar/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/ravi/.android/build-cache/8fe3e0db78bf06818add61a2a89136a2f7139332/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/ravi/Desktop/Shankar/shankar_spotsoon_running/ArtistBooking/weekcalendar/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/ravi/.android/build-cache/8fe3e0db78bf06818add61a2a89136a2f7139332/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/ravi/Desktop/Shankar/shankar_spotsoon_running/ArtistBooking/weekcalendar/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/home/ravi/.android/build-cache/8fe3e0db78bf06818add61a2a89136a2f7139332/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/ravi/Desktop/Shankar/shankar_spotsoon_running/ArtistBooking/weekcalendar/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/ravi/.android/build-cache/8fe3e0db78bf06818add61a2a89136a2f7139332/output/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

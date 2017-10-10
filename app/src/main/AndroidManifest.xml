@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bigappcompany.com.artistbooking">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".CategoryActivity" />
+        <activity android:name=".ArtistsActivity" />
+        <activity android:name=".VerticalPagerActivity" />
+        <activity
+            android:name=".ImageSlide"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MyProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutUsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BookingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BookingActivityNew"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RequestsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BasicPlayerActivity"
+            android:screenOrientation="portrait" />
+
+       <!-- <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="eed77d7fd5ee7f4526f3de323187c2e7c9c51180" />-->
+        <meta-data
+            xmlns:tools="http://schemas.android.com/tools"
+            android:name="io.fabric.ApiKey"
+            android:value="eed77d7fd5ee7f4526f3de323187c2e7c9c51180"
+            tools:replace="android:value"/>
+
+        <service android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NotificationsActivity"></activity>
+    </application>
+
+</manifest>

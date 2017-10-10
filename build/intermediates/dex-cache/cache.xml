@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/ravi/Desktop/Shankar/shankar_spotsoon_running/ArtistBooking/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="/home/ravi/Desktop/Shankar/shankar_spotsoon_running/ArtistBooking/app/build/intermediates/transforms/dex/debug/folders/1000/2/YouTubeAndroidPlayerApi_4a7088efa13f5aeaf7ca29b06a8c79b8b723cae1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ravi/Desktop/Shankar/shankar_spotsoon_running/ArtistBooking/weekcalendar/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bdeaddaa99a974d670e47e1c9a4f0c956521c3fe">
+        <dex dex="/home/ravi/Desktop/Shankar/shankar_spotsoon_running/ArtistBooking/app/build/intermediates/transforms/dex/debug/folders/1000/4/classes_c3fa46e1f9839c2d1efdba408c7a561f2d3c247c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ravi/Desktop/Shankar/shankar_spotsoon_running/ArtistBooking/ucrop/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93340eef16da81a8a8a5279ad4d583f7c36553c1">
+        <dex dex="/home/ravi/Desktop/Shankar/shankar_spotsoon_running/ArtistBooking/app/build/intermediates/transforms/dex/debug/folders/1000/4/classes_578aec447443075597232e8c85b420731e34e8e9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ravi/.gradle/caches/modules-2/files-2.1/com.squareup/otto/1.3.8/cf615176cd1177edf71d3c9605f8dc148fede6be/otto-1.3.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cf615176cd1177edf71d3c9605f8dc148fede6be">
+        <dex dex="/home/ravi/Desktop/Shankar/shankar_spotsoon_running/ArtistBooking/app/build/intermediates/transforms/dex/debug/folders/1000/10/otto-1.3.8_4ab452bf524b3f96f275a3e6ea7155db5ce17178/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ravi/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.9.1/c261495d1e01df849cdb3cbc941564018f0d3539/joda-time-2.9.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c261495d1e01df849cdb3cbc941564018f0d3539">
+        <dex dex="/home/ravi/Desktop/Shankar/shankar_spotsoon_running/ArtistBooking/app/build/intermediates/transforms/dex/debug/folders/1000/10/joda-time-2.9.1_61de240c4ce313d076845359759582f789f6ff2b/classes.dex" />
+    </item>
+
+</items>

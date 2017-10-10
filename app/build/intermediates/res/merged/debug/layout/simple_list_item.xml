@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bigappcompany.com.artistbooking.widgets.MyCustomTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="48dp"
+    android:background="@color/white"
+    android:text="Add Video"
+    android:textColor="@color/textPrimary"
+    android:textSize="@dimen/text_large"
+    android:gravity="center_vertical"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+</bigappcompany.com.artistbooking.widgets.MyCustomTextView>
+

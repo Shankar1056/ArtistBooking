@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "811971081248",
+    "firebase_url": "https://artistbooking-c2adc.firebaseio.com",
+    "project_id": "artistbooking-c2adc",
+    "storage_bucket": "artistbooking-c2adc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811971081248:android:9db34d6d41515617",
+        "android_client_info": {
+          "package_name": "bigappcompany.com.artistbooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811971081248-31urqkmostr1joe383d1vgt4akv1hsu3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bigappcompany.com.artistbooking",
+            "certificate_hash": "42cf8aa64c53f659d65c3f12710e3d465eef33b1"
+          }
+        },
+        {
+          "client_id": "811971081248-usl1mk5gktnl4v97fodm3kmg9oi5l558.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDVJqnpmAtPhBreoUIXRSipqar4Vwk-3g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811971081248-sljsqpmkg7dhcdpn20998ed9srko8fgr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.spotsoon.Artists"
+              }
+            },
+            {
+              "client_id": "811971081248-usl1mk5gktnl4v97fodm3kmg9oi5l558.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

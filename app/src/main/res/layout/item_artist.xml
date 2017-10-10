@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bigappcompany.com.artistbooking.RippleView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:rv_centered="true"
+    app:rv_rippleDuration="@integer/fast"
+    app:rv_color="@color/rippleColor"
+    android:id="@+id/rp_item"
+    android:orientation="vertical">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/itemImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            android:background="@drawable/gradient" />
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <bigappcompany.com.artistbooking.widgets.MyCustomTextView
+            android:id="@+id/tvArtist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/itemImage"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:layout_marginRight="30dp"
+            android:text="Sample title"
+            android:background="@color/trcolor1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_normal" />
+                <bigappcompany.com.artistbooking.widgets.MyCustomTextView
+            android:id="@+id/tvDesig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/itemImage"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+                    android:layout_marginRight="60dp"
+            android:text="Singer"
+            android:background="@color/trcolor2"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_normal" />
+        </LinearLayout>
+</FrameLayout>
+
+</bigappcompany.com.artistbooking.RippleView>

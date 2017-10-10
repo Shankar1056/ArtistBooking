@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:squint="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+
+
+    <com.yalantis.ucrop.view.UCropView
+        android:id="@+id/ucrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <bigappcompany.com.artistbooking.RippleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        squint:rv_centered="true"
+        android:id="@+id/rp_update"
+        android:layout_gravity="bottom"
+        squint:rv_color="@color/color1"
+        squint:rv_rippleDuration="@integer/fast"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp">
+        <bigappcompany.com.artistbooking.widgets.MyCustomBoldButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bt_bg"
+
+            android:text="UPDATE"
+            android:textSize="@dimen/text_large"
+            android:textColor="@color/textSecondary"/>
+    </bigappcompany.com.artistbooking.RippleView>
+</FrameLayout>
