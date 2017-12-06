@@ -4,7 +4,7 @@
 
     <uses-sdk
         android:minSdkVersion="16"
-        android:targetSdkVersion="25" />
+        android:targetSdkVersion="26" />
 
     <instrumentation
         android:name="android.support.test.runner.AndroidJUnitRunner"
@@ -13,7 +13,7 @@
         android:label="Tests for bigappcompany.com.artistbooking"
         android:targetPackage="bigappcompany.com.artistbooking" />
 
-    <application>
+    <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
     </application>
 
