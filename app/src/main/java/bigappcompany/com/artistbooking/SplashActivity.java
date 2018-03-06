@@ -33,11 +33,6 @@ import bigappcompany.com.artistbooking.network.JsonParser;
 import bigappcompany.com.artistbooking.network.OnTaskCompleted;
 
 public class SplashActivity extends AppCompatActivity {
-	// Note: Your consumer key and secret should be obfuscated in your source code before shipping.
-	private static final String TWITTER_KEY = "QOlRzNIvZGvCPoUlTePnwumXP";
-	private static final String TWITTER_SECRET = "b26ZiCaJ1RrJrSHGUiqcRk5uqRWr26kVpjbDSsyoMLOmEIhU3t";
-	
-	
 	private SharedPreferences sp;
 	public static final int RC_SIGN_IN = 1;
 	private PhoneAuthProvider.OnVerificationStateChangedCallbacks mCallbacks;
@@ -50,30 +45,7 @@ public class SplashActivity extends AppCompatActivity {
 		
 		sp = getSharedPreferences(JsonParser.APP_NAME, MODE_PRIVATE);
 
-      
 
-       /* new Handler().postDelayed(new Runnable() {
-
-            @Override
-            public void run() {
-
-            if (Digits.getActiveSession()==null) {
-                Toast.makeText(getApplicationContext(), "not initialized", Toast.LENGTH_LONG).show();
-                Digits.authenticate(authConfigBuilder.build());
-            } else if (!getSharedPreferences(JsonParser.APP_NAME, MODE_PRIVATE).getBoolean(JsonParser.GO, false)) {
-                login(Digits.getActiveSession().getPhoneNumber());
-            } else {
-                Intent i = new Intent(SplashActivity.this, HomeActivity.class);
-                startActivity(i);
-                finish();
-            }
-                }
-
-
-        }, 1500);
-    
-*/
-		
 		new Handler().postDelayed(new Runnable() {
 			
 			@Override
@@ -148,21 +120,24 @@ public class SplashActivity extends AppCompatActivity {
 			// Successfully signed in
 			if (resultCode == ResultCodes.OK) {
 				login(response.getPhoneNumber());
-//				return;
+				return;
 			} else {
 				// Sign in failed
 				if (response == null) {
 					// User pressed back button
 					Log.e("Login", "Login canceled by User");
-//					return;
+					finish();
+					return;
 				}
 				if (response.getErrorCode() == ErrorCodes.NO_NETWORK) {
 					Log.e("Login", "No Internet Connection");
-//					return;
+					finish();
+					return;
 				}
 				if (response.getErrorCode() == ErrorCodes.UNKNOWN_ERROR) {
 					Log.e("Login", "Unknown Error");
-//					return;
+					finish();
+					return;
 				}
 			}
 			Log.e("Login", "Unknown sign in response");

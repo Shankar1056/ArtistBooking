@@ -8,16 +8,16 @@
         "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/d0527f6531d61beadb3d26b6a98ee91e/res/drawable-mdpi-v4/googleg_standard_color_18.png"
     },
     {
-        "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/layout_abc_expanded_menu_layout.xml.flat",
-        "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dd8735b069945d81cb9e930f14a12850/res/layout/abc_expanded_menu_layout.xml"
+        "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_powered_by_google_dark.png.flat",
+        "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/play-services-places-11.0.4.aar/9a49dad92aee94aec35b5cb3cffada0a/res/drawable-xxhdpi-v4/powered_by_google_dark.png"
     },
     {
         "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_mail_white_24dp.png.flat",
         "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-2.0.1.aar/4e5e23e71dc74fac7e5aa75e4dff105a/res/drawable-xhdpi-v4/ic_mail_white_24dp.png"
     },
     {
-        "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_powered_by_google_dark.png.flat",
-        "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/play-services-places-11.0.4.aar/9a49dad92aee94aec35b5cb3cffada0a/res/drawable-xxhdpi-v4/powered_by_google_dark.png"
+        "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/layout_abc_expanded_menu_layout.xml.flat",
+        "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dd8735b069945d81cb9e930f14a12850/res/layout/abc_expanded_menu_layout.xml"
     },
     {
         "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_mr_button_connected_20_light.png.flat",
@@ -28,12 +28,12 @@
         "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dd8735b069945d81cb9e930f14a12850/res/drawable/abc_vector_test.xml"
     },
     {
-        "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
-        "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dd8735b069945d81cb9e930f14a12850/res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
-    },
-    {
         "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/anim_design_snackbar_in.xml.flat",
         "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e44ea50c8bcfa0136a735892fe636a34/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dd8735b069945d81cb9e930f14a12850/res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
         "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_cast_ic_notification_0.png.flat",
@@ -48,24 +48,24 @@
         "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.0.4.aar/9f8f85d76c9c330f896fb5d880adb36f/res/drawable-mdpi-v4/quantum_ic_keyboard_arrow_down_white_36.png"
     },
     {
-        "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dd8735b069945d81cb9e930f14a12850/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
         "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dd8735b069945d81cb9e930f14a12850/res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dd8735b069945d81cb9e930f14a12850/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dd8735b069945d81cb9e930f14a12850/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_quantum_ic_replay_white_24.png.flat",
-        "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.0.4.aar/9f8f85d76c9c330f896fb5d880adb36f/res/drawable-xhdpi-v4/quantum_ic_replay_white_24.png"
-    },
-    {
         "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_quantum_ic_stop_grey600_48.png.flat",
         "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.0.4.aar/9f8f85d76c9c330f896fb5d880adb36f/res/drawable-xhdpi-v4/quantum_ic_stop_grey600_48.png"
+    },
+    {
+        "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_quantum_ic_replay_white_24.png.flat",
+        "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.0.4.aar/9f8f85d76c9c330f896fb5d880adb36f/res/drawable-xhdpi-v4/quantum_ic_replay_white_24.png"
     },
     {
         "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
@@ -80,12 +80,12 @@
         "source": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/src/main/res/drawable-xhdpi/download.png"
     },
     {
-        "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-xhdpi_done.png.flat",
-        "source": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/src/main/res/drawable-xhdpi/done.png"
-    },
-    {
         "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_quantum_ic_skip_previous_grey600_36.png.flat",
         "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.0.4.aar/9f8f85d76c9c330f896fb5d880adb36f/res/drawable-hdpi-v4/quantum_ic_skip_previous_grey600_36.png"
+    },
+    {
+        "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-xhdpi_done.png.flat",
+        "source": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/src/main/res/drawable-xhdpi/done.png"
     },
     {
         "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable_mr_media_pause_light.xml.flat",
@@ -128,20 +128,20 @@
         "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dd8735b069945d81cb9e930f14a12850/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
-        "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-xhdpi_notification.png.flat",
-        "source": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/src/main/res/drawable-xhdpi/notification.png"
-    },
-    {
         "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_ic_group_expand_08.png.flat",
         "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/3316036a39f40f9f9b3529578afcb02d/res/drawable-xxxhdpi-v4/ic_group_expand_08.png"
     },
     {
-        "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
-        "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dd8735b069945d81cb9e930f14a12850/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+        "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-xhdpi_notification.png.flat",
+        "source": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/src/main/res/drawable-xhdpi/notification.png"
     },
     {
         "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/anim_activity_close_scale.xml.flat",
         "source": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/src/main/res/anim/activity_close_scale.xml"
+    },
+    {
+        "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dd8735b069945d81cb9e930f14a12850/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
@@ -152,16 +152,16 @@
         "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dd8735b069945d81cb9e930f14a12850/res/layout/abc_action_mode_bar.xml"
     },
     {
-        "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/layout_abc_action_menu_item_layout.xml.flat",
-        "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dd8735b069945d81cb9e930f14a12850/res/layout/abc_action_menu_item_layout.xml"
+        "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_places_ic_search.png.flat",
+        "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/play-services-places-11.0.4.aar/9a49dad92aee94aec35b5cb3cffada0a/res/drawable-hdpi-v4/places_ic_search.png"
     },
     {
         "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_ic_dialog_close_light.png.flat",
         "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/3316036a39f40f9f9b3529578afcb02d/res/drawable-mdpi-v4/ic_dialog_close_light.png"
     },
     {
-        "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_places_ic_search.png.flat",
-        "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/play-services-places-11.0.4.aar/9a49dad92aee94aec35b5cb3cffada0a/res/drawable-hdpi-v4/places_ic_search.png"
+        "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/layout_abc_action_menu_item_layout.xml.flat",
+        "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dd8735b069945d81cb9e930f14a12850/res/layout/abc_action_menu_item_layout.xml"
     },
     {
         "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
@@ -204,12 +204,12 @@
         "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-2.0.1.aar/4e5e23e71dc74fac7e5aa75e4dff105a/res/layout/idp_button_facebook.xml"
     },
     {
-        "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/layout_item_notification.xml.flat",
-        "source": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/src/main/res/layout/item_notification.xml"
-    },
-    {
         "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/layout_dialog_title.xml.flat",
         "source": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/src/main/res/layout/dialog_title.xml"
+    },
+    {
+        "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/layout_item_notification.xml.flat",
+        "source": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/src/main/res/layout/item_notification.xml"
     },
     {
         "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_checkbox.xml.flat",
@@ -220,12 +220,12 @@
         "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/play-services-wallet-11.0.4.aar/934d43dee701443536a184b445e1a225/res/color/wallet_secondary_text_holo_dark.xml"
     },
     {
-        "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_mr_button_disabled_dark.png.flat",
-        "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/3316036a39f40f9f9b3529578afcb02d/res/drawable-xxhdpi-v4/ic_mr_button_disabled_dark.png"
-    },
-    {
         "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_googleg_standard_color_18.png.flat",
         "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/d0527f6531d61beadb3d26b6a98ee91e/res/drawable-xhdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_mr_button_disabled_dark.png.flat",
+        "source": "/home/shankar/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/3316036a39f40f9f9b3529578afcb02d/res/drawable-xxhdpi-v4/ic_mr_button_disabled_dark.png"
     },
     {
         "merged": "/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_quantum_ic_skip_next_grey600_36.png.flat",

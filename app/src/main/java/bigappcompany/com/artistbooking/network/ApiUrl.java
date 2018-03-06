@@ -1,7 +1,7 @@
 package bigappcompany.com.artistbooking.network;
 
 public final class ApiUrl {
-        public static final String BASE_URL = "http://bigappcompany.co.in/demos/artist/";
+        public static final String BASE_URL = "http://allartistbooking.com/admin/";
         private static final String API_KEY = "rsi8197028387";
         public static final String SLIDERS = BASE_URL +"mobile_banner";
         public static final String IMG_TYPES = BASE_URL + "image_types/" + API_KEY;
