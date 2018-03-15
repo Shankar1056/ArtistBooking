@@ -181,9 +181,9 @@ public class MainActivity extends AppCompatActivity implements OnWeekChangeListe
     private void setUpData(String response) {
         try {
             if(new JSONObject(response).getBoolean(JsonParser.RESPONSE_STATUS)) {
-                JSONObject detials=new JSONObject(response).getJSONObject(JsonParser.DATA).getJSONArray(JsonParser.DETAILS).getJSONObject(0);
-                JSONObject catg=new JSONObject(response).getJSONObject(JsonParser.DATA).getJSONObject("0").getJSONArray(JsonParser.CATG).getJSONObject(0);
-                tv_des.setText(catg.getString(JsonParser.CAT_NAME));
+                JSONObject detials=new JSONObject(response).getJSONObject(JsonParser.DATA);
+//                JSONObject catg=new JSONObject(response).getJSONObject(JsonParser.DATA).getJSONArray(JsonParser.CATG).getJSONObject(0);
+//                tv_des.setText(catg.getString(JsonParser.CAT_NAME));
                 if(((MyPagerAdapter)pager.getAdapter()).getItem(0)!=null)
                 {
                     bio=detials.getString(JsonParser.BIO);

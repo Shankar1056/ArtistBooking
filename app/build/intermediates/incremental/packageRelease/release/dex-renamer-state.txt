@@ -1,4 +1,4 @@
-#Tue Mar 06 12:23:36 IST 2018
+#Thu Mar 15 14:24:08 IST 2018
 base.0=/home/shankar/Desktop/Shankar/Shankar_Project_Running/ArtistBooking/app/build/intermediates/transforms/dex/release/0
 renamed.1=classes2.dex
 renamed.0=classes.dex

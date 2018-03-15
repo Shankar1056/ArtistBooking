@@ -45,7 +45,6 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
-
 import bigappcompany.com.artistbooking.adapters.CustomAdapter;
 import bigappcompany.com.artistbooking.adapters.CustomPagerAdapter;
 import bigappcompany.com.artistbooking.adapters.DotsAdapter;
@@ -63,8 +62,6 @@ public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     // Note: Your consumer key and secret should be obfuscated in your source code before shipping.
-    private static final String TWITTER_KEY = "QOlRzNIvZGvCPoUlTePnwumXP";
-    private static final String TWITTER_SECRET = "b26ZiCaJ1RrJrSHGUiqcRk5uqRWr26kVpjbDSsyoMLOmEIhU3t";
     public static boolean active=false;
     ArrayList<SectionDataModel> allSampleData;
     private int previousPage;
